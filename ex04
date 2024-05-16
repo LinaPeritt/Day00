@@ -1,0 +1,6 @@
+import random
+ma_liste = [random.randint(1, 100) for _ in range(5)]
+
+print(ma_liste) 
+def tri_bulles(liste):
+    n = len(liste)
